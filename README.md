@@ -11,7 +11,9 @@ Chat GPT의 OpenAPI와 Python으로 만든 api를 연결해서 만든 프로젝�
 
 🎮 토이 프로젝트
 주제 : MBTI 기반 연애 코치 봇
+
 인원 : 프론트엔드 1명, 백엔드 1명
+
 기간 : 23.05.25 ~ 23.05.26
 
 📚 기술스택
@@ -20,6 +22,7 @@ Chat GPT의 OpenAPI와 Python으로 만든 api를 연결해서 만든 프로젝�
 - HTML
 - CSS
 - JavaScript
+
 백엔드 기술스택
 - GPT open API
 - Python
