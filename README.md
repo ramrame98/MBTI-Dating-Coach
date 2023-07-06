@@ -7,8 +7,6 @@ Chat GPT의 OpenAPI와 Python으로 만든 api를 연결해서 만든 프로젝�
 
 # 💌 나만의 연애코치 앱(프론트)
 
-## 📝 **기획**
-
 🎮 토이 프로젝트
 주제 : MBTI 기반 연애 코치 봇
 
@@ -28,7 +26,7 @@ Chat GPT의 OpenAPI와 Python으로 만든 api를 연결해서 만든 프로젝�
 - Python
 - Fast API
 
-
+<br>
 - **나와 상대방 mbti, 상황, 관계를 입력하는 폼 페이지 구현**
     - form, input, button을 활용하여 폼 구현
     - fetch를 사용하여 post요청
