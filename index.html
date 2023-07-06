@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dating Coach - Form</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="formContainer">
+        <h2>나만의 연애코치 앱</h2>
+        <form id="detailsForm" onsubmit="submitDetails(event)">
+          <label for="myMbtiInput">My MBTI :</label>
+          <input type="text" id="myMbtiInput" required />
+
+          <label for="partnerMbtiInput">Partner's MBTI :</label>
+          <input type="text" id="partnerMbtiInput" required />
+
+          <label for="situationInput">Situation :</label>
+          <input type="text" id="situationInput" required />
+
+          <label for="relationshipInput">Relationship :</label>
+          <input type="text" id="relationshipInput" required />
+
+          <button type="submit">상담하기</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

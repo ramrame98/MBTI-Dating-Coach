@@ -1,0 +1,207 @@
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  color: #5398ff;
+}
+
+#chatContainer {
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 16px 2px 16px 12px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+#chatList {
+  flex-grow: 1;
+  overflow-y: scroll;
+  padding: 0 2px;
+}
+
+#chatList::-webkit-scrollbar {
+  width: 8px;
+}
+
+#chatList::-webkit-scrollbar-thumb {
+  height: 10%;
+  background: #b4b9c2;
+  border-radius: 10px;
+}
+
+#chatList::-webkit-scrollbar-thumb:hover {
+  background: #8e959e;
+}
+
+#chatList::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.message {
+  margin-bottom: 16px;
+}
+
+.user-message {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.user-message .bubble {
+  /* user-message의 내부에 있는 bubble 선택 */
+  background-color: #d3e8f7;
+  border-radius: 8px;
+  padding: 12px;
+  max-width: 70%;
+}
+
+.coach-message {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.coach-message .bubble {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  max-width: 70%;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  overflow: hidden;
+}
+.user-message .avatar {
+  margin-left: 8px;
+}
+.coach-message .avatar {
+  margin-right: 8px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.send-bar {
+  display: flex;
+  margin-top: 16px;
+}
+
+#userInput {
+  flex-grow: 1;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+#sendButton {
+  width: 80px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+#sendButton:disabled {
+  background-color: gray;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .send-bar {
+    padding: 0 22px 0 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    font-size: 24px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  #chatContainer {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 120px);
+    border-radius: 0;
+    padding: 12px 4px 12px 10px;
+  }
+
+  .user-message .bubble {
+    padding: 8px;
+  }
+
+  .coach-message .bubble {
+    padding: 8px;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .send-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    padding: 12px;
+    /* background-color: #f9f9f9; */
+  }
+}
+
+/* 애니메이션 */
+@keyframes typing-animation {
+  0% {
+    content: ".";
+  }
+  33% {
+    content: "..";
+  }
+  66% {
+    content: "...";
+  }
+  100% {
+    content: "..";
+  }
+}
+
+.typing-animation::after {
+  content: " "; /* 내용을 공백으로 설정 */
+  animation: typing-animation 1.5s infinite steps(3);
+}
