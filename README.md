@@ -25,8 +25,8 @@ Chat GPT의 OpenAPI와 Python으로 만든 api를 연결해서 만든 프로젝�
 - GPT open API
 - Python
 - Fast API
+- <br>
 
-<br>
 - **나와 상대방 mbti, 상황, 관계를 입력하는 폼 페이지 구현**
     - form, input, button을 활용하여 폼 구현
     - fetch를 사용하여 post요청
