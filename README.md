@@ -14,14 +14,12 @@ Chat GPT의 OpenAPI와 Python으로 만든 api를 연결해서 만든 프로젝�
 
 기간 : 23.05.25 ~ 23.05.26
 
-📚 기술스택
-
-프론트 기술스택
+📚 프론트 기술스택
 - HTML
 - CSS
 - JavaScript
 
-백엔드 기술스택
+📚 백엔드 기술스택
 - GPT open API
 - Python
 - Fast API
