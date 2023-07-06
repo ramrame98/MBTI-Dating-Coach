@@ -1,9 +1,9 @@
 # MBTI-Dating-Coach
 Chat GPT의 OpenAPI와 Python으로 만든 api를 연결해서 만든 프로젝트로 나와 상대방의 MBTI, 상황, 관계를 입력하면 연애 코칭을 해주는 봇입니다.
 
-구현 페이지 주소 https://web-dating-coach-7xwyjq992llj52r53k.sel4.cloudtype.app/
+[구현 페이지 주소] (https://web-dating-coach-7xwyjq992llj52r53k.sel4.cloudtype.app/)
 
-블로그 주소 https://velog.io/@tnfkachzh/%EB%82%98%EB%A7%8C%EC%9D%98-%EC%97%B0%EC%95%A0%EC%BD%94%EC%B9%98-%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0%ED%94%84%EB%A1%A0%ED%8A%B8
+[블로그 주소] (https://velog.io/@tnfkachzh/%EB%82%98%EB%A7%8C%EC%9D%98-%EC%97%B0%EC%95%A0%EC%BD%94%EC%B9%98-%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0%ED%94%84%EB%A1%A0%ED%8A%B8)
 
 # 💌 나만의 연애코치 앱(프론트)
 
